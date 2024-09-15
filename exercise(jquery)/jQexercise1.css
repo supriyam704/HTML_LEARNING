@@ -1,0 +1,18 @@
+.task-list{
+    /* background: #b7acac; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.add-task-btn{
+    background: green;
+    color:white;
+}
+
+.add-grp{
+    border:1px solid red;
+    padding: 2rem;
+
+}
+
+.input-task{
+    display: block;
+}

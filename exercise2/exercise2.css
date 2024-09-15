@@ -1,0 +1,24 @@
+.main{
+    font-style: italic;
+    font-weight: 600;
+    padding:0.5rem;
+    margin: 2rem;
+    border:1px solid;
+    height:'';
+    width:'';
+
+}
+
+
+.second{
+    background-color: red;
+    font-size: 2rem;
+    color: antiquewhite;  
+    box-shadow: 0 0 1px 1px #c7b0b0;
+}
+
+/* .main:hover{
+    background-color: red;
+    font-size: 2rem;
+    color: antiquewhite;
+} */

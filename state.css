@@ -1,0 +1,55 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+:root{
+    --primary-color: #e8e8e8;
+     --green:#2eda0c;
+     --width: 20px
+}
+
+.state {
+    background-color: #9e536b;
+    margin: 10px;
+    border-radius: 20px;
+    color: #fff;
+    padding: var(--width);
+    cursor: pointer;
+}
+
+.state:hover{
+    background-color: var(--primary-color);
+}
+.state:active{
+    background-color: #0aa934;
+}
+
+.state:nth-child(3){
+    background-color: #d2f50c;
+}
+.state:last-child{
+    background-color: violet;
+}
+.state:first-child{
+    background-color: black;
+}
+
+.statesname{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+#first-name:focus-visible,#last-name:focus-visible{
+    border:2px red solid!important;
+    outline:none;
+}
+.paisa::before{
+    content:"$";
+}
+li::marker{
+    color: red;
+    width:20px;
+    height:20px;
+}
